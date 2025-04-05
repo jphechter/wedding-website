@@ -3,15 +3,13 @@ import { Navbar } from "@/components/Navbar";
 export default function Home() {
   return (
     <main className="relative min-h-screen">
-      {/* Background Image with Overlay */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: 'url("/proposal.JPG")' }}
+        style={{ backgroundImage: `url('${process.env.NEXT_PUBLIC_BASE_PATH || ''}/proposal.JPG')` }}
       >
         <div className="absolute inset-0 bg-black/30" />
       </div>
 
-      {/* Content */}
       <div className="relative z-10">
         <Navbar />
         <div className="container mx-auto px-4 pt-8 sm:pt-16 md:pt-24">
