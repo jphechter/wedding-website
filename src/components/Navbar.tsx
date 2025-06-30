@@ -15,13 +15,21 @@ const NavLinks = () => (
     </li>
     <li>
       <Link
-        href="/about"
+        href="/details"
         className="block py-2 text-base font-medium transition-colors duration-200 hover:text-gray-600 sm:text-lg"
       >
-        About Us
+        Details
       </Link>
     </li>
     <li>
+      <Link
+        href="/our-story"
+        className="block py-2 text-base font-medium transition-colors duration-200 hover:text-gray-600 sm:text-lg"
+      >
+        Our Story
+      </Link>
+    </li>
+    {/* <li>
       <Link
         href="/wedding-party"
         className="block py-2 text-base font-medium transition-colors duration-200 hover:text-gray-600 sm:text-lg"
@@ -52,7 +60,7 @@ const NavLinks = () => (
       >
         FAQ
       </Link>
-    </li>
+    </li> */}
   </>
 );
 

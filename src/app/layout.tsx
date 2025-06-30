@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-page-custom-font */
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono, Playfair_Display } from 'next/font/google';
 import './globals.css';
@@ -21,7 +22,7 @@ const playfairDisplay = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'Jess and JP',
+  title: 'JP and Jessica - October 12, 2025',
   description: 'Join us as we celebrate our love and begin our journey together',
   icons: {
     icon: [
@@ -40,6 +41,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        {/* <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> */}
+        <link
+          href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap"
+          rel="stylesheet"
+        ></link>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${playfairDisplay.variable} antialiased`}
       >
