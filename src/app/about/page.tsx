@@ -15,7 +15,7 @@ export default function About() {
             <div className="w-full lg:w-1/2">
               <div className="relative aspect-[4/3] overflow-hidden rounded-lg shadow-xl">
                 <Image
-                  src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/jess_jp.jpg`}
+                  src={'./jess_jp.jpg'}
                   alt="Jess and JP"
                   fill
                   className="object-cover"

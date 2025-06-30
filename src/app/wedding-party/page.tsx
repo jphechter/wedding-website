@@ -48,7 +48,7 @@ export default function WeddingParty() {
                     <div
                       className="h-full w-full bg-cover bg-center"
                       style={{
-                        backgroundImage: `url('${process.env.NEXT_PUBLIC_BASE_PATH || ''}${member.image}')`,
+                        backgroundImage: `url('${member.image}')`,
                       }}
                     />
                   </div>
@@ -75,7 +75,7 @@ export default function WeddingParty() {
                     <div
                       className="h-full w-full bg-cover bg-center"
                       style={{
-                        backgroundImage: `url('${process.env.NEXT_PUBLIC_BASE_PATH || ''}${member.image}')`,
+                        backgroundImage: `url('${member.image}')`,
                       }}
                     />
                   </div>
