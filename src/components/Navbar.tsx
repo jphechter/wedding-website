@@ -36,7 +36,7 @@ const NavLinks = () => (
       >
         Wedding Party
       </Link>
-    </li>
+    </li> */}
     <li>
       <Link
         href="/travel"
@@ -45,7 +45,7 @@ const NavLinks = () => (
         Travel
       </Link>
     </li>
-    <li>
+    {/* <li>
       <Link
         href="/things-to-do"
         className="block py-2 text-base font-medium transition-colors duration-200 hover:text-gray-600 sm:text-lg"

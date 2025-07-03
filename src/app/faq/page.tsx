@@ -107,7 +107,7 @@ export default function FAQ() {
                   >
                     this link
                   </Link>{' '}
-                  to book a room with a discount.
+                  to book a room in the block with a discount.
                 </p>
               </div>
             </div>
