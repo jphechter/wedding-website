@@ -52,7 +52,7 @@ const NavLinks = () => (
       >
         Things To Do
       </Link>
-    </li>
+    </li> */}
     <li>
       <Link
         href="/faq"
@@ -60,7 +60,7 @@ const NavLinks = () => (
       >
         FAQ
       </Link>
-    </li> */}
+    </li>
   </>
 );
 
